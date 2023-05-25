@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@soroban-react/chains": "4.5.1-alpha.0",
+    "@soroban-react/core": "^4.5.1-alpha.0",
+    "@soroban-react/freighter": "4.0.0",
+    "@soroban-react/types": "4.0.0",
     "@types/node": "20.2.3",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
@@ -16,7 +20,7 @@
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "5.0.4"
   }
 }

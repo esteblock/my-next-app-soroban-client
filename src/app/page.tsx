@@ -1,8 +1,23 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import ProviderExample from './ProviderExample'; 
+import { useSorobanReact } from '@soroban-react/core'
+
 
 export default function Home() {
-  return (
+  return ( 
+    <ProviderExample>
+          <MyApp/>
+    </ProviderExample>
+  )
+}
+
+
+function MyApp() {
+  // const sorobanContext = useSorobanReact()
+  // console.log("sorobanContext: ", sorobanContext)
+
+  return ( 
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -92,4 +107,6 @@ export default function Home() {
       </div>
     </main>
   )
+
 }
+
