@@ -1,7 +1,12 @@
+import SorobanClient from "soroban-client";
 import Image from 'next/image'
 import styles from './page.module.css'
 
+const myServer = new SorobanClient.Server('https://soroban-rpc.stellar.org');
+console.log(myServer)
+
 export default function Home() {
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
