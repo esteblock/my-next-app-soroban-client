@@ -1,5 +1,5 @@
 "use client"; // This is a client component 👈🏽
-import SorobanClient from "soroban-client";
+import * as SorobanClient from "soroban-client";
 import Image from 'next/image'
 import styles from './page.module.css'
 
